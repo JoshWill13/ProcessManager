@@ -1,0 +1,11 @@
+all: PMan inf
+
+PMan: PMan.c
+	gcc PMan.c -lreadline -lhistory -Wall -o PMan
+
+inf: inf.c
+	gcc inf.c -o inf
+	
+.PHONY clean:
+clean:
+	-rm -rf *.o *.exe
