@@ -13,5 +13,5 @@ commands supported
 -pstat (pid)						//lists info about the specified process
 -exit
 
-PMan is a program that allows you to run programs in the background while still providing
+PMan allows you to run programs in the background while still providing
 you a prompt to execute any of the different commands supported.
